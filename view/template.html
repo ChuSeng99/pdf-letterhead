@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+<body>
+    <header class="header">
+        <img
+            src="./images/logo2.png"
+            alt="Logo"
+            width="200"
+            height="90"
+        >
+
+        <h1 style="margin: 40px 0 20px 0 ; font-size: 70px; line-height: 60px;">
+            Say hello to<br />your new card.
+        </h1>
+    </header>
+
+    <main>
+        <section class="section section-1">
+            <h3
+                class="section__heading"
+                style="color: #e81f76; font-size: 24px; margin-bottom: 12px;"
+            >Get started in 3 simple steps!</h3>
+
+            <div class="container">
+                <div class="step step-1">
+                    <div style="height: 60px;">
+                        <span
+                            style="vertical-align: top; display: inline-block; font-size: 20px; font-weight: bold;">1</span>
+                        <span style="vertical-align: top; display: inline-block; margin-left: 5px; font-size: 13px;">
+                            Visit SIM Activation URL Link:
+                            <br />https://selfsign.geenet.com.sg/<br />activate?sim={{ sim }}
+                        </span>
+                    </div>
+
+                    <img
+                        src="{{ qrcodeImg }}"
+                        alt="QRCode"
+                        width="210"
+                        height="210"
+                    >
+                </div>
+
+                <div class="step step-2">
+                    <div style="height: 60px;">
+                        <span
+                            style="vertical-align: top; display: inline-block; font-size: 20px; font-weight: bold;">2</span>
+                        <span style="vertical-align: top; display: inline-block; margin-left: 5px; font-size: 13px;">
+                            Retrieve and<br />verify your order.
+                        </span>
+                    </div>
+
+                    <img
+                        src="./images/retrieve_order.png"
+                        alt="step2"
+                        width="210"
+                        height="210"
+                    >
+                </div>
+
+                <div class="step step-3">
+                    <div style="height: 60px;">
+                        <span
+                            style="vertical-align: top; display: inline-block; font-size: 20px; font-weight: bold;">3</span>
+                        <span style="vertical-align: top; display: inline-block; margin-left: 5px; font-size: 13px;">
+                            Register using<br />Singpass.
+                        </span>
+                    </div>
+
+                    <img
+                        src="./images/singpass.png"
+                        alt="step3"
+                        width="210"
+                        height="210"
+                    >
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-2">
+            <h3
+                class="section__heading"
+                style="color: #e81f76; font-size: 20px; margin-top: 70px; margin-bottom: 8px;"
+            >Important things to note</h3>
+
+            <ul
+                class="note"
+                style="list-style: inside; margin: 0; padding: 0; font-size: 13px;"
+            >
+                <li>
+                    Kindly activate your SIM card through our Geenet online portal within (3) three calendar days upon
+                    receiving the card. Failure to complete activation within the specified 3 calendar days will result
+                    in the termination of your Geenet SIM card.
+                </li>
+
+                <li style="margin-top: 8px;">
+                    If you are a port-in user, your Geenet SIM is assigned to a temporary number and port-in will be
+                    completed within one working day after self-activation. You will be notified via SMS once it is
+                    ready for use.
+                </li>
+
+                <li style="margin-top: 8px;">
+                    To renew your SIM plan, simply download Geenet APP on your mobile phone and set up auto recurring or
+                    visit any Geenet reseller near you. List of resellers can be found here:
+                    <strong>www.geenet.com.sg/resellerstorelocator/</strong>
+                </li>
+            </ul>
+
+            <div style="margin-top: 20px;">
+                <img
+                    src="./images/appstore.png"
+                    alt="AppStore"
+                    width="100"
+                    height="30"
+                    style="margin-right: 10px;"
+                >
+                <img
+                    src="./images/googleplay.png"
+                    alt="GooglePlay"
+                    width="100"
+                    height="30"
+                    style="margin-right: 10px;"
+                >
+                <img
+                    src="./images/huawei.png"
+                    alt="GooglePlay"
+                    width="110"
+                    height="30"
+                >
+            </div>
+        </section>
+
+        <section class="section section-3">
+            <h3
+                class="section__heading"
+                style="color: #e81f76; font-size: 20px; margin-bottom: 8px;"
+            >Customer Service</h3>
+            <ul style="list-style: none; margin: 0; padding: 0; font-size: 13px;">
+                <li style="margin-bottom: 16px;">
+                    For Enquires, you may contact our Geenet Customer Service as follow.
+                </li>
+                <li>
+                    Customer Service Whatsapp: 8935 2130
+                </li>
+                <li>
+                    Customer Service Hotline: 6714 6677
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+
+</html>
